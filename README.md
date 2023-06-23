@@ -10,6 +10,7 @@ This is a forked repository for personal studies created from repository:
 
 - PHP 8.1^
 - Composer
+- XDebug (optional to run coverage)
 
 **Download:**
 
@@ -28,7 +29,7 @@ $ git clone git@github.com:matmper/php_phpunit_class.git
 
 - Access class path: `cd php_phpunit_class/test_02`
 - Install composer: `composer install`
-- Run tests: `composer test`
+- Run tests: `composer test` or `composer test-coverage`
 
 ---
 
