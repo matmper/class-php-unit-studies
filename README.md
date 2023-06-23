@@ -1,37 +1,35 @@
+# Class - PHP UNIT TDD
 
-## Testes unitários e TDD com PHP e PHPUnit
+This is a forked repository for personal studies created from repository:
 
-### Material do curso
-https://www.udemy.com/testes-unitarios-php-phpunit/
+- https://github.com/viniciuswebdev/curso-php-phpunit
 
-## Instruções
+## Starting
 
-Clone o projeto:
+**Requeriments:**
 
-`git clone git@github.com:viniciuswebdev/curso-php-phpunit.git`
+- PHP 8.1^
+- Composer
 
-#### Parte 1
+**Download:**
 
-Para executar os testes da `parte 1` basta acessar o diretório:
+Clone repository:
+```sh
+$ git clone git@github.com:matmper/php_phpunit_class.git
+```
 
-`cd curso-php-phpunit/parte_1`
+### Class One
 
-E executar os testes:
+- Access class path: `cd php_phpunit_class/test_01`
+- Install composer: `composer install`
+- Run tests: `composer test`
 
-`php run_tests.php`
+### Class Two
 
-#### Parte 2
+- Access class path: `cd php_phpunit_class/test_02`
+- Install composer: `composer install`
+- Run tests: `composer test`
 
-Para executar os testes da `parte 2` siga as seguintes instruções:
+---
 
- Acesse o diretório do projeto:
- 
-`cd curso-php-phpunit/parte_2`
-
- Instale as dependências:
- 
-`./composer.phar install`
-
- Execute os testes:
- 
-`./vendor/bin/phpunit src/`
+- This code cannot be used commercially
